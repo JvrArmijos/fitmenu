@@ -1,0 +1,34 @@
+{
+  "name": "fitmenu-local-backend",
+  "version": "1.0.0",
+  "description": "Backend API para la aplicación FitMenu Local, desarrollada con Express.js y SQL Server.",
+  "type": "module",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js",
+    "dev": "node --watch servidor.js"
+  },
+  "keywords": [
+    "fitmenu",
+    "nutricion",
+    "ecuador",
+    "gemini",
+    "express",
+    "sqlserver"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.13.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pdfkit": "^0.15.0",
+    "sqlite3": "^6.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
